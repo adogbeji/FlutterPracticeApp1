@@ -7,7 +7,9 @@ void main() {
         body: Container(
           decoration: const BoxDecoration(
             gradient: LinearGradient(
-              colors: [Colors.pink, Colors.red],
+              colors: [Colors.pinkAccent, Colors.red],
+              begin: Alignment.topRight,
+              end: Alignment.bottomLeft,
             ),
           ),
           child: const Center(
